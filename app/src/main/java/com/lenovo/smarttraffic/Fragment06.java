@@ -121,7 +121,7 @@ public class Fragment06 extends Fragment {
                 }
             }
         });
-        viewpager06.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+        viewpager06.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
