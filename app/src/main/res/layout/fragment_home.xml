@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+       android:paddingBottom="@dimen/margin_bigger"
+        android:gravity="center">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/image_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_bigger"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@mipmap/traffic_circle"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同学们加油！"
+            android:layout_marginBottom="@dimen/margin_30"
+            app:layout_constraintBottom_toTopOf="@id/image_circle"
+            app:layout_constraintTop_toBottomOf="@id/image_circle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textColor="#ff4b4b"
+            android:textSize="25sp"
+            android:layout_marginTop="@dimen/margin_30"
+            android:layout_marginRight="@dimen/margin_bigger"
+            android:layout_marginEnd="@dimen/margin_bigger"
+            app:layout_constraintBottom_toTopOf="@id/image_circle"
+            app:layout_constraintTop_toBottomOf="@id/image_circle"
+            app:layout_constraintLeft_toLeftOf="@id/image_circle"
+            app:layout_constraintRight_toRightOf="@id/image_circle" />
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分"
+            android:textSize="15sp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/_income"
+            app:layout_constraintLeft_toLeftOf="@id/image_circle"
+            app:layout_constraintRight_toRightOf="@id/image_circle" />
+    </android.support.constraint.ConstraintLayout>
+    </RelativeLayout>
+
+</LinearLayout>

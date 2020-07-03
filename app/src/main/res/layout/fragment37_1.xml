@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text37"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/bus_1"
+        android:id="@+id/image37_1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+</LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:background="#333333"-->
+
+        <!--android:id="@+id/ll_zoom"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/iv_zoom"-->
+        <!--android:src="@drawable/car30"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:layout_height="match_parent" />-->
+    <!--</LinearLayout>-->
+</FrameLayout>

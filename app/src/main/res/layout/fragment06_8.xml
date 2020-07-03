@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment06_8">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="违章车辆的违章次数占比分布图统计"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        />
+    <com.github.mikephil.charting.charts.HorizontalBarChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/hbchart06_8"
+        ></com.github.mikephil.charting.charts.HorizontalBarChart>
+
+
+</LinearLayout>

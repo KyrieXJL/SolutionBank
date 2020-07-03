@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment15_2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="有无“重复违章记录的车辆”的占比统计"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pc15_2"
+        android:layout_width="618dp"
+        android:layout_height="410dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"></com.github.mikephil.charting.charts.PieChart>
+
+
+
+</LinearLayout>
